@@ -1,0 +1,56 @@
+﻿/* Styling based on element */
+header {
+    padding-left: 10px;
+}
+
+input {
+    width: 100px;
+    height: 70px;
+    font-size: 35px;
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    grid-column: 1 / span 2;
+}
+
+/* Styling based on element ID */
+#error {
+    color: red;
+}
+
+#grid_container {
+    width: 210px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 10px;
+}
+
+#first_input {
+    grid-column-start: 2;
+}
+
+#plus_sign {
+    margin-bottom: 0px;
+    font-size: 35px;
+}
+
+#answer {
+    height: 40px;
+    padding: 10px 20px;
+    font-family: arial;
+    font-size: 35px;
+    text-align: right;
+    grid-column: 1 / span 2;
+}
+
+#sum {
+    padding: 15px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #1a9ee8;
+    color: #f1ebeb;
+    font-size: 15px;
+}

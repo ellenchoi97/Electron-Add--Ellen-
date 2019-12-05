@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Adder</title>
+</head>
+
+<body>
+    <header>
+        <h1>Add Two Numbers!</h1>
+
+        <p>Input two numbers and click the button to find the sum</p>
+
+        <p id="error"></p>
+    </header>
+    
+    <!-- The container with the main form -->
+    <div id="grid_container">
+        <input id="first_input" type="number" />
+
+        <p id="plus_sign">+</p>
+
+        <input id="second_input" type="number" />
+
+        <hr />
+
+        <textarea id="answer"></textarea>
+    </div>
+
+    <!-- The button to find the sum of the two numbers -->
+    <button id="sum">Find the Sum</button>
+
+    <!-- The JavaScript file that calls the Python function -->
+    <script>
+        require("./renderer.js")
+    </script>
+</body>
+</html>

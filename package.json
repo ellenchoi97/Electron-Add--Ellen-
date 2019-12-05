@@ -1,0 +1,14 @@
+{
+    "name": "add-numbers",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "dependencies": {
+        "zerorpc": "git+https://github.com/fyears/zerorpc-node.git"
+    },
+    "devDependencies": {
+        "electron": "^1.8.8",
+        "electron-packager": "^9.0.1"
+    }
+}
